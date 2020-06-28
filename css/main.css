@@ -1,18 +1,13 @@
 body {
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 
 }
 main {
     margin: 0 auto;
     width: 980px;
     position: relative;
-}
-
-.menu-principal {
-    width: 100%;
-    background-color: #252323;
-    height: 60px;
 }
 .logo {
     float: left;
@@ -27,7 +22,34 @@ main {
     list-style: none;
 
 }
-.redes-sociais {
-    width: 25%;
+
+.header-2 {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+.busca {
+    width: 30%;
     float: right;
 }
