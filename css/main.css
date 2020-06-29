@@ -4,6 +4,16 @@ body {
     margin: 0 auto;
 
 }
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
 main {
     margin: 0 auto;
     width: 980px;
@@ -16,31 +26,33 @@ main {
 
 }
 .redes-sociais ul , li {
-    margin-left: 15px;
+    margin-left: 25px;
     display: inline-block;
-    
+    float: left;
     list-style: none;
 
 }
-
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
 .header-2 {
     background-color: #ffffff;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+    
+}
+.menu-urls {
+    height: 80px;
     border-bottom: 3px solid #efefef;
-}
-.menu {
-    width: 70%;
-    float: left;
-}
-.menu-principal {
-    width: 100%;
-    background-color: #252323;
-    height: 60px;
+
 }
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 50px;
 }
 .menu ul li a {
     color: #8b8b8b;
@@ -49,7 +61,30 @@ main {
     text-transform: uppercase;
     
 }
+.menu {
+    width: 70%;
+    float: left;
+}
+
 .busca {
+    text-align: center;
     width: 30%;
     float: right;
+}
+.busca input {
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 20px;
+    padding: 10px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+
+   
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
