@@ -8,33 +8,10 @@ body {
 ul {
     padding: 0px!important;
 }
-
-.menu-principal{
-    width: 100%;
-    background-color: #252323;
-    height: 60px;
-}
 main {
     margin: 0 auto;
     width: 980px;
     position: relative;
-}
-.logo {
-    float: left;
-    padding: 16px;
-    width: 70%;
-
-}
-.redes-sociais ul , li {
-    margin-left: 25px;
-    display: inline-block;
-    float: left;
-    list-style: none;
-
-}
-.redes-sociais {
-    width: 25%;
-    float: right;
 }
 .header-2 {
     background-color: #ffffff;
@@ -43,29 +20,58 @@ main {
     padding: 16px;
     
 }
-.menu-urls {
-    height: 80px;
-    border-bottom: 3px solid #efefef;
-
+.menu {
+    width: 70%;
+    float: left;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
 }
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
     height: 50px;
+    
 }
 .menu ul li a {
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
-    
 }
-.menu {
-    width: 70%;
-    float: left;
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
 }
 
+.menu ul li a:hover {
+    color: #00bac6;
+    
+}
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+
+}
+.logo {
+    float: left;
+    padding: 16px;
+    width: 70%;
+
+}
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+.redes-sociais ul , li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+
+}
 .busca {
     text-align: center;
     width: 30%;
@@ -74,14 +80,14 @@ main {
 .busca input {
     background-image: url('../img/icone-search.png');
     background-repeat: no-repeat;
-    background-position: 96%;
     height: 20px;
     padding: 10px;
-    width: 190px;
+    width: 180px;
     margin-top: 10px;
+    margin-left: 60px;
+    background-position: 95%;
     border: 1px solid #d6d6d6;
 
-   
 }
 .col-100 {
     width: 100%;
