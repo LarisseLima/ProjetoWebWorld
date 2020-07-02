@@ -102,7 +102,7 @@ button.slick-prev {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../img/anterior.png);
+    background-image: url('../img/anterior.png');
     top: 35%;
     left: 14%;
 }
@@ -114,7 +114,7 @@ button.slick-next {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../img/proximo.png);
+    background-image: url('../img/proximo.png');
     top: 35%;
     right: 14%;
 }
@@ -173,11 +173,47 @@ li.slick-active button {
     float: left;
     position: relative;
 }
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
 .bloco-texto {
     margin-top: 3em;
 }
+
 h3 {
     font-weight: normal!important;
 }
 
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
 
