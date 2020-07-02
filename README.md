@@ -12,7 +12,7 @@ Javascript<br>
 <img src="prints/print1.png">
 <img src="prints/print2.png">
 <img src="prints/print3.png">
-<img src="prints/print7.png">
+<img src="prints/print4.png">
 
 
 [ LinkedIn ](https://www.linkedin.com/in/larisselima/)
