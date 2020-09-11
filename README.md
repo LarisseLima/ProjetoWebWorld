@@ -3,7 +3,7 @@
 <p > Projeto desenvolvido para estudos de desenvolvimento web</p> 
 
 
-<h2> Linguagens utilizadaos:</h2>
+<h2> Linguagens utilizadas:</h2>
 HTML<br>
 CSS<br>
 Javascript<br>
