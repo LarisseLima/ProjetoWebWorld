@@ -15,8 +15,4 @@ Javascript<br>
 <img src="prints/print4.png">
 
 
-[ LinkedIn ](https://www.linkedin.com/in/larisselima/)
-
-
-<h3 align="center">Desenvolvido por Larisse Lima :coffee: </h3>
-
+<p align="center"><b>Feito com 	:coffee: <br> por Larisse Lima</b></p>
