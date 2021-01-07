@@ -1,13 +1,26 @@
-# Projeto Web World :woman_technologist:
+<h1 align="center" >
+    Web World
+</h1>
 
-<p > Projeto desenvolvido para estudos de desenvolvimento web</p> 
+<h3 align="center">
+    Projeto desenvolvido para estudos de desenvolvimento web
+</h3>
 
 
-<h2> Linguagens utilizadas:</h2>
-HTML<br>
-CSS<br>
-Javascript<br>
 
+
+## 🛠 Tecnologias
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+
+- HTML
+- CSS
+- JavaScript
+
+
+
+## 🎨 Layout
 
 <img src="prints/print1.png">
 <img src="prints/print2.png">
@@ -16,3 +29,4 @@ Javascript<br>
 
 
 <p align="center"><b>Feito com 	:coffee: <br> por Larisse Lima</b></p>
+
